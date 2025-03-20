@@ -1,0 +1,13 @@
+@import "tailwindcss";
+@config "../tailwind.config.js";
+
+/* Before */
+body {
+  background-color: oklch(95% 0.05 120);
+}
+
+/* After */
+body {
+  background-color: #f7fafc; /* Light gray equivalent */
+}
+
